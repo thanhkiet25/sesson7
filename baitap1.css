@@ -1,0 +1,22 @@
+.container{
+   width: 500px; 
+   height: 300px;
+   border: 1px solid #333;
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   align-items: center;
+  
+}
+.container div{
+    background-color: rgba(32, 132, 194, 1);
+    color: #ffffff;
+    width: 100px;
+    height: 100px;
+   text-align: center;
+   
+   
+}
+.container div p{
+   margin-top: 35px;
+}

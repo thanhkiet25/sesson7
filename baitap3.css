@@ -1,0 +1,21 @@
+.grid{
+    width: 600px;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #333;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+}
+.grid div{
+    background-color: #1a82d7;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+
+}
+div:nth-of-type(5){
+    grid-area: 2/1/2/3;
+}
