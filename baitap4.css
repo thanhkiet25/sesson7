@@ -1,0 +1,24 @@
+.grid{
+    width: 500px;
+    height: 300px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto auto auto auto;
+
+}
+.header{
+    background-color: rgb(46, 155, 227);
+    grid-area: 1/1/1/7;
+}
+.sidebar{
+    background-color: green;
+    grid-area: 2/1/6/3;
+}
+.conter{
+background-color:rgba(220, 23, 23, 0.813) ;
+grid-area: 2/3/6/7;
+}
+.footer{
+    background-color: rgba(137, 43, 226, 0.726);
+    grid-area: 6/1/6/7;
+}

@@ -1,0 +1,101 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+        margin: 0;
+}
+.header{
+    background-color: #706e6efe;
+    color: #ffffff;
+    padding: 10px;
+    
+}
+.header h1{
+    text-align: center;
+}
+.home{
+    display: flex;
+    justify-content: center;
+}
+.home a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 20px;
+}
+.main{
+    text-align: center;
+    background-color: rgb(206, 212, 218);
+    padding: 30px;
+ }
+ .main button{
+    background-color: #252323c7;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 2px;
+ }
+ .main2{
+    padding: 20px;
+    text-align: center;
+ }
+ .main2of1{
+    display: flex;
+    justify-content: center;
+ }
+ .main2of1 div{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(121, 127, 134);
+    margin-left: 20px;
+ }
+ .main2of1 div p{
+    position: relative;
+    top: 95px;
+ }
+ .main3{
+    background-color: rgb(206, 212, 218);
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+ }
+ footer{
+    background-color: #333;
+    height: 100px;
+ }
+ .salebook h1{
+    text-align: center;
+    padding: 20px;
+ }
+ .box{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content:space-between;
+ justify-content: last baseline;
+    gap: 30px;
+    margin: 20px;
+ }
+ .box div{
+    width: 258px;
+    height: 350px;
+    text-align: center;
+    border:  solid #e7dfdf;
+    border-radius: 4px;
+ }
+ .box div img{
+    width: 200px;
+    height: 180px;
+    padding: 40px;
+ }
+ .box div h3{
+    position: relative;
+    bottom: 50px;
+ }
+ .box div p{
+    position: relative;
+    bottom: 50px;
+  }
+  .box div button{
+    background-color: #333;
+    color: #ffffff;
+    position: relative;
+    bottom: 50px;
+    padding: 2px 15px;
+  }
+ 
